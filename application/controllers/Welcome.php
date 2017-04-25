@@ -20,6 +20,9 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('home');
+		
+		$this->load->model('bat');	
+		$data['bat'] = new Bat;
+		$this->load->view('home', $data);
 	}
 }
