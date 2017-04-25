@@ -1,6 +1,6 @@
 <?php
 
-include 'Monster.php';
+include_once APPPATH . 'models/Monster.php';
 
 /**
  * Class Bat

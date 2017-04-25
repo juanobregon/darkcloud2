@@ -48,7 +48,4 @@ abstract class Monster
 	{
 		return $this->items_dropped;
 	}
-	
-	
-	
 }
