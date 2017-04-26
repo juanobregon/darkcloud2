@@ -103,6 +103,78 @@
                 </div>
             </div>
             <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/mimic.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $mimic->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/flotsam_balloon.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $flotsam_balloon->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/darkness.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $darkness->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/vanguard.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $vanguard->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/king_mimic.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $king_mimic->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/linda.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $linda->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
         </div>
     </div>
 </body>

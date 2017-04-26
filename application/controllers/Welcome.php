@@ -35,6 +35,19 @@ class Welcome extends CI_Controller {
 		$data['baron_balloon'] = new BaronBalloon;
 		$this->load->model('NightStalker');	
 		$data['night_stalker'] = new NightStalker;
+		$this->load->model('Mimic');	
+		$data['mimic'] = new Mimic;
+		$this->load->model('FlotsamBalloon');	
+		$data['flotsam_balloon'] = new FlotsamBalloon;
+		$this->load->model('Darkness');	
+		$data['darkness'] = new Darkness;
+		$this->load->model('Vanguard');	
+		$data['vanguard'] = new Vanguard;
+		$this->load->model('KingMimic');	
+		$data['king_mimic'] = new KingMimic;
+		$this->load->model('Linda');	
+		$data['linda'] = new Linda;
+		
 		$this->load->view('home', $data);
 	}
 }
