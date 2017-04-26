@@ -31,6 +31,78 @@
             </div>
             <!-- End Monster -->
 
+			<!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/sewer_rat.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $sewer_rat->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/froggy.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $froggy->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/clown.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $clown->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/turtle.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $turtle->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/baron_balloon.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $baron_balloon->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/night_stalker.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $night_stalker->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
         </div>
     </div>
 </body>

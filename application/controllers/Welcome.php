@@ -23,6 +23,18 @@ class Welcome extends CI_Controller {
 		
 		$this->load->model('bat');	
 		$data['bat'] = new Bat;
+		$this->load->model('SewerRat');	
+		$data['sewer_rat'] = new SewerRat;
+		$this->load->model('Froggy');	
+		$data['froggy'] = new Froggy;
+		$this->load->model('Clown');	
+		$data['clown'] = new Clown;
+		$this->load->model('Turtle');	
+		$data['turtle'] = new Turtle;
+		$this->load->model('BaronBalloon');	
+		$data['baron_balloon'] = new BaronBalloon;
+		$this->load->model('NightStalker');	
+		$data['night_stalker'] = new NightStalker;
 		$this->load->view('home', $data);
 	}
 }
