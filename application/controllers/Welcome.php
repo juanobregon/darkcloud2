@@ -47,6 +47,16 @@ class Welcome extends CI_Controller {
 		$data['king_mimic'] = new KingMimic;
 		$this->load->model('Linda');	
 		$data['linda'] = new Linda;
+		$this->load->model('Halloween');	
+		$data['halloween'] = new Halloween;
+		$this->load->model('Kotore');	
+		$data['kotore'] = new Kotore;
+		$this->load->model('Pumpkinhead');	
+		$data['pumpkinhead'] = new Pumpkinhead;
+		$this->load->model('ManEatingGrass');	
+		$data['maneating_grass'] = new ManEatingGrass;
+		$this->load->model('SkeletonSoldier');	
+		$data['skeleton_soldier'] = new SkeletonSoldier;
 		
 		$this->load->view('home', $data);
 	}

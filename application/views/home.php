@@ -175,6 +175,69 @@
                 </div>
             </div>
             <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/halloween.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $halloween->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/kotore.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $kotore->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/pumpkinhead.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $pumpkinhead->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/maneating_grass.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $maneating_grass->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            <!-- Start Monster -->
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="javascript:">
+                        <img src="assets/images/thumbs/skeleton_soldier.png" alt="">
+                        <div class="caption text-center">
+                            <h5><?php echo $skeleton_soldier->getName(); ?></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Monster -->
+            
+            
+            
         </div>
     </div>
 </body>
